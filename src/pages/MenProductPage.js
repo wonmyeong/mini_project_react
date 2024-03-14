@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 const MenProductPage = () => {
   const [productList, setProductList] = useState([]);
-  const url = [
+  const men_url = [
     "/image.msscdn.net/images/goods_img/20240108/3780328/3780328_17078730226305_220.jpg",
     "/image.msscdn.net/images/goods_img/20210917/2139775/2139775_1_220.jpg",
     "/image.msscdn.net/images/goods_img/20240109/3782754/3782754_17055612243362_220.jpg",
@@ -23,7 +23,8 @@ const MenProductPage = () => {
     "/image.msscdn.net/images/goods_img/20240112/3791933/3791933_17077836431483_220.jpg",
     "/image.msscdn.net/images/goods_img/20230726/3427774/3427774_16904359555767_220.jpg",
   ];
-  const getProduct = async () => {
+
+  const getMenProduct = async () => {
     let url = `http://localhost:5000/men_products`;
     let response = await fetch(url);
     let data = await response.json(response);
@@ -32,14 +33,14 @@ const MenProductPage = () => {
   };
 
   useEffect(() => {
-    getProduct();
+    getMenProduct();
   }, []);
 
   return (
     <Row>
       {productList.map((product, index) => (
         <Col key={index} xs={12} sm={6} md={4}>
-          <ProductCard product={product} image_url={url[index]} />
+          <ProductCard product={product} image_url={men_url[index]} />
         </Col>
       ))}
     </Row>

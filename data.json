@@ -178,7 +178,7 @@
       "before_discount": 52200,
       "after_discount": 29900,
       "discount_percent": 43,
-      "super_sale": true,
+      "reasonable_choice": true,
       "rating": 88.0,
       "super_discount": true
     },
@@ -189,7 +189,7 @@
       "before_discount": 128000,
       "after_discount": 43500,
       "discount_percent": 67,
-      "super_sale": true,
+      "reasonable_choice": true,
       "rating": 96.4,
       "super_discount": true
     },
@@ -200,7 +200,7 @@
       "before_discount": 79000,
       "after_discount": 55300,
       "discount_percent": 30,
-      "super_sale": false,
+      "reasonable_choice": false,
       "rating": 100.0,
       "super_discount": false
     },
@@ -211,7 +211,7 @@
       "before_discount": 66000,
       "after_discount": 49900,
       "discount_percent": 25,
-      "super_sale": false,
+      "reasonable_choice": false,
       "rating": 96.3,
       "super_discount": false
     },
@@ -222,7 +222,7 @@
       "before_discount": 59000,
       "after_discount": 42900,
       "discount_percent": 28,
-      "super_sale": true,
+      "reasonable_choice": true,
       "rating": 98.0,
       "super_discount": false
     },
@@ -233,7 +233,7 @@
       "before_discount": 89000,
       "after_discount": 42000,
       "discount_percent": 53,
-      "super_sale": true,
+      "reasonable_choice": true,
       "rating": 94.0,
       "super_discount": true
     },
@@ -244,7 +244,7 @@
       "before_discount": 59000,
       "after_discount": 35900,
       "discount_percent": 40,
-      "super_sale": true,
+      "reasonable_choice": true,
       "rating": 98.3,
       "super_discount": true
     },
@@ -255,7 +255,7 @@
       "before_discount": 69000,
       "after_discount": 49000,
       "discount_percent": 29,
-      "super_sale": true,
+      "reasonable_choice": true,
       "rating": 100.0,
       "super_discount": false
     },
@@ -266,7 +266,7 @@
       "before_discount": 74800,
       "after_discount": 59800,
       "discount_percent": 21,
-      "super_sale": false,
+      "reasonable_choice": false,
       "rating": 99.0,
       "super_discount": false
     },
@@ -277,7 +277,7 @@
       "before_discount": 69000,
       "after_discount": 41900,
       "discount_percent": 40,
-      "super_sale": true,
+      "reasonable_choice": true,
       "rating": 100.0,
       "super_discount": true
     },
@@ -288,7 +288,7 @@
       "before_discount": 74000,
       "after_discount": 66000,
       "discount_percent": 11,
-      "super_sale": false,
+      "reasonable_choice": false,
       "rating": 98.0,
       "super_discount": false
     },
@@ -299,7 +299,7 @@
       "before_discount": 129000,
       "after_discount": 64500,
       "discount_percent": 50,
-      "super_sale": false,
+      "reasonable_choice": false,
       "rating": 100.0,
       "super_discount": true
     },
@@ -310,7 +310,7 @@
       "before_discount": 79000,
       "after_discount": 49900,
       "discount_percent": 37,
-      "super_sale": false,
+      "reasonable_choice": false,
       "rating": 97.8,
       "super_discount": true
     },
@@ -321,7 +321,7 @@
       "before_discount": 59000,
       "after_discount": 39900,
       "discount_percent": 33,
-      "super_sale": true,
+      "reasonable_choice": true,
       "rating": 97.2,
       "super_discount": false
     },
@@ -332,7 +332,7 @@
       "before_discount": 109000,
       "after_discount": 87200,
       "discount_percent": 20,
-      "super_sale": false,
+      "reasonable_choice": false,
       "rating": 90.0,
       "super_discount": false
     }

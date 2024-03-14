@@ -5,15 +5,19 @@ import { Container } from "react-bootstrap";
 import MenProductPage from "./pages/MenProductPage";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ButtonCategory from "./component/ButtonCategory";
+import { Route, Routes } from "react-router-dom";
+import WomenProductPage from "./pages/WomenProductPage";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Container className="main-container">
-        <MenProductPage />
-        {/* <ButtonCategory /> */}
-      </Container>
+      <ButtonCategory />
+
+      <Routes>
+        <Route path="/" element={<MenProductPage />} />
+        <Route path="/women" element={<WomenProductPage />} />
+      </Routes>
     </div>
   );
 }
